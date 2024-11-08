@@ -1,0 +1,9 @@
+<h2>Liste des utilisateurs</h2>
+
+<ul>
+  @for (utilisateur of utilisateurs; track $index) {
+    <li>
+      {{utilisateur.username}}
+    </li>
+  }
+</ul>
